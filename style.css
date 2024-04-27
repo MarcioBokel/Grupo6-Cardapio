@@ -1,42 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 .tamanho {
-    width: 60%;
-    margin: auto;
+  width: 60%;
+  margin: auto;
 }
+
 .cardapio-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
 }
+
 h2 {
-text-align: center;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
 }
-.categoria {
-border: 5px dotted red;
-border-radius: 20px;
-padding: 20px;
-}
-.prato-container {
- display: flex;
- justify-content: space-around;
- border: 2px double brown;
- background-color: rgba(165, 42, 42, 0.228);
- border-radius: 20px;
-}
-.titulo-prato {
-    font-family: "Kaushan Script", cursive;
-    font-size: 30px;
-}
-.descricao-prato {
-    font-size: 20px;
-    font-style: italic;
-}
-    .preco-prato {
-        font-size: 30px;
-        transition:all 0.5s linear;
-    }
 
-    .preco-prato:hover {
-        font-size: 35px;
-    }
+.categoria {
+  border: 5px dotted red;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.prato-container {
+  display: flex;
+  justify-content: space-around;
+  border: 2px double brown;
+  background-color: rgba(165, 42, 42, 0.228);
+  border-radius: 20px;
+}
+
+.titulo-prato {
+  font-family: "Kaushan Script", cursive;
+  font-size: 30px;
+}
+
+.descricao-prato {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.preco-prato {
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.preco-prato:hover {
+  font-size: 35px;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer div p {
+  line-height: 15px;
+}
