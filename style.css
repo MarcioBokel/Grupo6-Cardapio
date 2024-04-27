@@ -1,0 +1,26 @@
+.tamanho {
+    width: 60%;
+    margin: auto;
+}
+.cardapio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+h2 {
+text-align: center;
+}
+.categoria {
+border: 5px dotted red;
+border-radius: 20px;
+padding: 20px;
+}
+.prato-container {
+ display: flex;
+ justify-content: space-around;
+ border: 2px double brown;
+ background-color: rgba(165, 42, 42, 0.228);
+ border-radius: 20px;
+
+}
