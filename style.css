@@ -12,24 +12,48 @@
 
 }
 
+header {
+  background-image: url("/imagens/Logo-restaurante-vetor.jpg");
+  background-size: contain;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Kaushan Script", cursive;
+}
+
 h2 {
   text-align: center;
   text-decoration: underline;
   font-size: 50px;
 }
 
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
 .categoria {
+  background-color: rgba(224, 80, 80, 0.228);
   border: 5px dotted red;
   border-radius: 20px;
   padding: 20px;
+  margin: 10px 0;
 }
 
 .prato-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   border: 2px double brown;
   background-color: rgba(165, 42, 42, 0.228);
   border-radius: 20px;
+  padding: 10px;
+}
+
+.prato-container img {
+  border-radius: 50%;
 }
 
 .titulo-prato {
@@ -56,6 +80,7 @@ h2 {
 footer {
   background-color: rgba(128, 128, 128, 0.253);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 50px;
