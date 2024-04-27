@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 .tamanho {
     width: 60%;
     margin: auto;
@@ -22,5 +23,20 @@ padding: 20px;
  border: 2px double brown;
  background-color: rgba(165, 42, 42, 0.228);
  border-radius: 20px;
-
 }
+.titulo-prato {
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+}
+.descricao-prato {
+    font-size: 20px;
+    font-style: italic;
+}
+    .preco-prato {
+        font-size: 30px;
+        transition:all 0.5s linear;
+    }
+
+    .preco-prato:hover {
+        font-size: 35px;
+    }
