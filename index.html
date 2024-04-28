@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" href="/imagens/Logo-restaurante-vetor.jpg" />
+  <link rel="icon" href="./imagens/Logo_Restaurante_V2.jpeg" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,18 +16,18 @@
 </head>
 
 <body class="container">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
-      <img src="./imagens/Logo-restaurante-vetor.jpg" alt="Logo" width="50" height="50" />
-      <a class="navbar-brand" href="#">Nosso restaurante</a>
+      <img src="./imagens/Logo_Restaurante_V2.jpeg" alt="Logo" width="200" height="140"/>
+      <!--<a class="navbar-brand" href="#">Nosso restaurante</a>-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" aria-current="page" href="#nossos-pratos">Nossos pratos</a>
           <a class="nav-link" href="#">Entradas</a>
+          <a class="nav-link" aria-current="page" href="#nossos-pratos">Nossos pratos</a>
           <a class="nav-link" href="#">Sobremesas</a>
           <a class="nav-link" href="#">Bebidas</a>
         </div>
@@ -36,8 +36,8 @@
   </nav>
   <main>
     <header>
-      <h1>Nosso rstaurante</h1>
-      <h3>Nosso slogam aqui!</h3>
+      <!--<h1>Nosso restaurante</h1>-->
+      <h3>Em respeito ao seu paladar!</h3>
     </header>
     <h1>Nossas recomendações</h1>
     <div id="carouselExampleIndicators" class="carousel slide tamanho">
@@ -81,6 +81,55 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <section class="categoria">
+      <h2 id="entradas">Entradas</h2>
+      <div class="cardapio-container">
+        <div class="prato-container">
+          <div class="prato">
+            <p class="titulo-prato">Couvert especial</p>
+            <p class="descricao-prato">Uma combinação variada para iniciar os trabalhos</p>
+            <p class="preco-prato">R$ 35,00 (1/2 porção) / R$ 80,00 (porção)</p>
+          </div>
+
+          <img src="./imagens/944_courvet.webp" alt="" width="200" height="200" />
+
+        </div>
+
+        <div class="prato-container">
+          <div class="prato">
+            <p class="titulo-prato">Bolinhos de Macaxeira e Carne-Seca</p>
+            <p class="descricao-prato">Sabe aquele bolinho para servir antes do almoço ou da janta? Temos uma receita ainda melhor!</p>
+            <p class="preco-prato">R$ 30,00 (1/2 porção) / R$ 60,00 (porção)</p>
+          </div>
+
+          <img src="./imagens/bolinhos-de-macaxeira-e-carne-seca.jpg" alt="" width="200" height="200" />
+
+        </div>
+        <div class="prato-container">
+          <div class="prato">
+            <p class="titulo-prato">Polenta frita</p>
+            <p class="descricao-prato">Receita de Polenta frita deliciosa feita com fubá e queijo parmesão. </p>
+            <p class="preco-prato">R$ 25,00 (1/2 porção) / R$ 50,00 (porção)</p>
+          </div>
+
+          <img src="./imagens/524ef64f6115e20d61f0f158e22e07bd.webp" alt="" width="200" height="200" />
+
+        </div>
+        <div class="prato-container">
+          <div class="prato">
+            <p class="titulo-prato">Fondue de queijo</p>
+            <p class="descricao-prato">Queijos Gouda, Emmental, Gruyère deliciosamente harmonizados</p>
+            <p class="preco-prato">R$ 80,00 (1/2 porção) / R$ 150,00 (porção)</p>
+          </div>
+
+          <img src="./imagens/Fondue-de-queijo-facil.jpeg" alt="" width="200" height="200" />
+
+        </div>
+        
+      </div>
+    </section>
+
     <section class="categoria">
       <h2 id="nossos-pratos">Nossos pratos</h2>
       <div class="cardapio-container">
@@ -96,14 +145,35 @@
         </div>
         <div class="prato-container">
           <div class="prato">
-            <p class="titulo-prato">Macarronada especial</p>
-            <p class="descricao-prato">típico prato italiano com massa fresca e delicioso molho</p>
-            <p class="preco-prato">R$ 42,00 (1/2 porção) / R$ 64,00 (porção)</p>
+            <p class="titulo-prato">Lasanha bolonhesa</p>
+            <p class="descricao-prato">típica lasagna italiana de carne</p>
+            <p class="preco-prato">R$ 46,00 (1/2 porção) / R$ 80,00 (porção)</p>
           </div>
 
-          <img src="./imagens/receitas-de-comidas-italianas.webp" alt="" width="200" height="200" />
+          <img src="./imagens/Lasanha-a-bolonhesa-com-carne-moida.webp" alt="" width="200" height="200" />
 
         </div>
+        <div class="prato-container">
+          <div class="prato">
+            <p class="titulo-prato">Filé à Oswaldo Aranha</p>
+            <p class="descricao-prato">Suculento bife de filé mignon acompanhado de fritas </p>
+            <p class="preco-prato">R$ 60,00 (1/2 porção) / R$ 110,00 (porção)</p>
+          </div>
+
+          <img src="./imagens/filecc81-a-oswaldo-aranha-prato-tradicional-do-restaurante-cosmopolita-na-lapa..webp" alt="" width="200" height="200" />
+
+        </div>
+        <div class="prato-container">
+          <div class="prato">
+            <p class="titulo-prato">Fondue de queijo</p>
+            <p class="descricao-prato">Queijos Gouda, Emmental, Gruyère deliciosamente harmonizados</p>
+            <p class="preco-prato">R$ 80,00 (1/2 porção) / R$ 150,00 (porção)</p>
+          </div>
+
+          <img src="./imagens/Fondue-de-queijo-facil.jpeg" alt="" width="200" height="200" />
+
+        </div>
+        
       </div>
     </section>
 
@@ -111,11 +181,11 @@
   <footer>
     <p>Desenvolvido por:</p>
     <div>
-      <p>Arthur</p>
-      <p>José</p>
-      <p>Lucas</p>
-      <p>Márcio</p>
-      <p>Rodrigo</p>
+      <p>Arthur Leal</p>
+      <p>José Luiz</p>
+      <p>Lucas Bitencourt</p>
+      <p>Márcio Bokel</p>
+      <p>Rodrigo Marques</p>
     </div>
     <div>
       <p>Acesse nossas redes socias:</p>

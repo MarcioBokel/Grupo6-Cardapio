@@ -12,9 +12,10 @@
 
 }
 
-header {
-  background-image: url("./imagens/Logo-restaurante-vetor.jpg");
-  background-size: contain;
+html {
+  background-image: url("./imagens/Logo_Restaurante_V2.jpeg");
+  background-size: 10%;
+  
 }
 
 h1 {
@@ -45,7 +46,7 @@ h3 {
 .prato-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 2px double brown;
   background-color: rgba(165, 42, 42, 0.228);
   border-radius: 20px;
