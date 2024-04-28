@@ -9,12 +9,24 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 
-html {
+#container {
+  background-color: white; 
+}
+
+.container {
+  width: 80%;
+}
+
+.container::before {
+  content: "";
+  position: fixed;
+  inset: 0;
   background-image: url("./imagens/Logo_Restaurante_V2.jpeg");
   background-size: 10%;
+  z-index: -1;
+  opacity: 0.4;
 }
 
 h1 {
