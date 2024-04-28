@@ -15,7 +15,6 @@
 html {
   background-image: url("./imagens/Logo_Restaurante_V2.jpeg");
   background-size: 10%;
-  
 }
 
 h1 {
@@ -36,13 +35,18 @@ h3 {
 }
 
 .categoria {
-  background-color: rgba(224, 80, 80, 0.228);
+  
   border: 5px dotted red;
   border-radius: 20px;
   padding: 20px;
   margin: 10px 0;
 }
-
+.entradas{
+  background-color: rgba(224, 80, 80, 0.228);
+}
+.pratos{
+  background-color: rgba(249, 249, 76, 0.228);
+}
 .prato-container {
   display: flex;
   flex-wrap: wrap;
